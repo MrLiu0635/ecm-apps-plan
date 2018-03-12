@@ -1,0 +1,64 @@
+
+.nav-tabs {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 56px;
+      z-index: 999;
+  }
+  
+  .nav-tabs div {
+    float: left;
+    background: #fff;
+    color: #555;
+    padding: 10px 0px;
+    text-align: center;
+    line-height: 18px;
+  }
+  
+  .nav-tabs div.twoCols {
+    position: relative;
+    width: 50%;
+  }
+  
+  .nav-tabs div.active {
+    border-bottom: 2px solid #318ccf;
+    color: #318ccf;
+  }
+  
+  .nav-tabs .oneway:after {
+    content: "|";
+    color: #ccc;
+    position: absolute;
+    right: 50%;
+  }
+
+
+.nav-tabs .threeCols {
+    width: 33.3%;
+}
+
+.nav-tabs .twoCols {
+    width: 50%;
+}
+
+.nav-tabs .twoCols:first-child:after {
+    content: "|";
+    color: #ccc;
+    position: absolute;
+    right: 0%;
+}
+
+.nav-tabs .threeCols:first-child:after {
+    content: "|";
+    color: #ccc;
+    position: absolute;
+    right: 66%;
+}
+
+.nav-tabs .threeCols:nth-child(even):after {
+    content: "|";
+    color: #ccc;
+    position: absolute;
+    right: 33%;
+}

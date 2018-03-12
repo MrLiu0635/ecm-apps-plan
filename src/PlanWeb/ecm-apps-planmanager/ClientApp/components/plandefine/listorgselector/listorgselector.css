@@ -1,0 +1,143 @@
+.listSelector .listSelectorBody
+{
+    position: absolute;
+    width: 100%;
+    top: 56px;
+    overflow-y: auto;
+}
+
+.listSelector .checkBox
+{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.listSelector .pathList
+{
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    overflow-x: scroll;
+    padding: 5px 7px 5px 9px
+}
+
+.listSelector .listItem
+{
+    display: flex;
+    align-items: center;
+}
+
+.listSelector .next
+{
+    width: 45px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 6px 10px 6px 0px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f5f5f9;
+}
+
+.listSelector .selectedPsger{
+    position: relative;
+    width: 22%;
+    background: #90CAF9;
+    padding: 8px 3px;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.listSelector .selectedPanel
+{
+    padding-left: 4px;
+}
+
+.listSelector .selectedPanel .divider{
+    margin: 5px 5px 0px 5px;
+    color: #666;
+}
+.listSelector .selectedPsger div{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+.listSelector .selectedPanel .deleteImg{
+    position: absolute;
+    max-width: 16px;
+    right: -3.5px;
+    top: -6px;
+}
+
+.listSelector ol
+{
+    list-style-type: none;
+    display: block;
+    margin:0;
+    padding:0;
+}
+
+.listSelector ol li
+{
+    float: left;
+    display: block;
+}
+
+.listSelector ol li a
+{
+    margin-right: 12px;
+    display: inline-block;
+    position: relative;
+    padding: 1px 2px 0 2px;
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 3px;
+}
+
+.listSelector ol li a:after
+{
+    content: "";
+    border-left: 10px solid #3498db;;
+    border-top: 11.5px solid transparent;
+    border-bottom: 11.5px solid transparent;
+    position: absolute;
+    right: -10px;
+    top: 0;
+}
+
+.listSelector ol li a:before
+{
+    content: "";
+    border-top: 11.4px solid #3498db;
+    border-bottom: 11.25px solid #3498db;
+    border-left: 9px solid transparent;
+    position: absolute;
+    top: 0;
+    left: -9.5px;
+}
+
+.listSelector ol li:first-child a{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.listSelector ol li:first-child a:before{
+    display: none;
+}
+
+.listSelector ol li:last-child a{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.listSelector ol li:last-child a:after
+{
+    display: none;
+}

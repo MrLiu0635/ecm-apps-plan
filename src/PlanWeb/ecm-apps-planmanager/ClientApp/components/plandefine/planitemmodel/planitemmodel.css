@@ -1,0 +1,7 @@
+.modelListSelector .modelListSelectorBody
+{
+    position: absolute;
+    width: 100%;
+    top: 56px;
+    overflow-y: auto;
+}

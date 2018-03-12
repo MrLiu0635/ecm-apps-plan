@@ -1,0 +1,27 @@
+.SingleUserSelectorBody .my-list .spe .am-list-extra {
+    flex-basis: initial;
+}
+
+.SingleUserSelectorBody
+{
+    position: absolute;
+    width: 100%;
+    top: 56px;
+    overflow-y: auto;
+}
+
+    .SingleUserSelectorBody .list-search {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+    .SingleUserSelectorBody .list-search img {
+    position: absolute;
+    left: 5px;
+    max-width: 20px;
+    top: 9px;
+}
+
+    .SingleUserSelectorBody .list-search input {
+    padding-left: 35px;
+}

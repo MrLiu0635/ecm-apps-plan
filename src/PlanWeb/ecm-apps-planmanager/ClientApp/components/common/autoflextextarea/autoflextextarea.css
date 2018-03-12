@@ -1,0 +1,57 @@
+.autoFlexTextArea .contentDiv
+{
+    width: 65%;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 5px;
+}
+.autoFlexTextArea .areaContent
+{
+    overflow-y:hidden;
+    resize: none;
+    float: left;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-family: MicroSoft YaHei;
+    width: 90%;
+}
+
+.autoFlexTextArea .inputContent
+{
+    overflow-y:hidden;
+    resize: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-family: MicroSoft YaHei;
+    width: 90%;
+    height: 22px;
+    text-align: right
+}
+
+.autoFlexTextArea .titleDiv
+{
+    vertical-align:middle;
+    width: 35%;
+    float: left;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    overflow: auto
+}
+
+.autoFlexTextArea .title
+{
+    font: 17px "Microsoft YaHei";
+    float: left;
+}
+
+.autoFlexTextArea
+{
+    padding-left: 20px;
+    min-height: 44px;
+    border-bottom: 1px solid #ccc;
+    overflow:hidden;
+    align-items: center;
+    display: -webkit-flex;
+}

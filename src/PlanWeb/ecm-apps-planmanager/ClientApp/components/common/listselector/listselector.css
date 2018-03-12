@@ -1,0 +1,21 @@
+.listSelector .listSelectorBody
+{
+    position: absolute;
+    width: 100%;
+    top: 56px;
+    overflow-y: auto;
+}
+
+.listSelector .checkBox
+{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.listSelector .listItem
+{
+    display: flex;
+    align-items: center;
+}

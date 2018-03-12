@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inspur.ECP.Rtf.Common", "PlanService\Inspur.Cloud.Platform.Common\Inspur.ECP.Rtf.Common.csproj", "{67DC7024-E310-4402-8DBD-E268F1E5DF22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inspur.ECP.Rtf.Api", "PlanService\Inspur.ECP.Rtf.Api\Inspur.ECP.Rtf.Api.csproj", "{A25DBBD4-612C-443C-AF7E-FA8F708635C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inspur.ECP.Rtf.Core", "PlanService\Inspur.ECP.Rtf.Core\Inspur.ECP.Rtf.Core.csproj", "{F88865A8-FAB4-4891-8E4B-FAB129A9198A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inspur.EcmCloud.Apps.Plan.Service", "PlanService\Service\Inspur.EcmCloud.Apps.Plan.Service.csproj", "{BF3C862C-A6E0-4C75-9B37-109A1250F1E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inspur.EcmCloud.Apps.Plan.ServiceWebApi", "PlanService\ServiceWebApi\Inspur.EcmCloud.Apps.Plan.ServiceWebApi.csproj", "{37AB17F6-F951-4015-8166-B83936D04576}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ecm-apps-planmanager", "PlanWeb\ecm-apps-planmanager\ecm-apps-planmanager.csproj", "{CCED8B39-9220-4FCD-B7E1-421C8A97417E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67DC7024-E310-4402-8DBD-E268F1E5DF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67DC7024-E310-4402-8DBD-E268F1E5DF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67DC7024-E310-4402-8DBD-E268F1E5DF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67DC7024-E310-4402-8DBD-E268F1E5DF22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A25DBBD4-612C-443C-AF7E-FA8F708635C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A25DBBD4-612C-443C-AF7E-FA8F708635C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A25DBBD4-612C-443C-AF7E-FA8F708635C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A25DBBD4-612C-443C-AF7E-FA8F708635C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F88865A8-FAB4-4891-8E4B-FAB129A9198A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88865A8-FAB4-4891-8E4B-FAB129A9198A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88865A8-FAB4-4891-8E4B-FAB129A9198A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88865A8-FAB4-4891-8E4B-FAB129A9198A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF3C862C-A6E0-4C75-9B37-109A1250F1E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3C862C-A6E0-4C75-9B37-109A1250F1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3C862C-A6E0-4C75-9B37-109A1250F1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3C862C-A6E0-4C75-9B37-109A1250F1E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37AB17F6-F951-4015-8166-B83936D04576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37AB17F6-F951-4015-8166-B83936D04576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37AB17F6-F951-4015-8166-B83936D04576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37AB17F6-F951-4015-8166-B83936D04576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCED8B39-9220-4FCD-B7E1-421C8A97417E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCED8B39-9220-4FCD-B7E1-421C8A97417E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCED8B39-9220-4FCD-B7E1-421C8A97417E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCED8B39-9220-4FCD-B7E1-421C8A97417E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DA67737-D7D8-4A5E-8352-523E2A2137E5}
+	EndGlobalSection
+EndGlobal

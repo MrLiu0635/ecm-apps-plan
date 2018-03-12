@@ -1,0 +1,72 @@
+/********************basic**********************/
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ebf3f3;
+  font-family: "Microsoft Yahei", Helvetica;
+  font-size: 14px;
+}
+
+
+/********************bootstrap基础样式******************/
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color:transparent;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+
+/******************navbar*****************/
+.navbar {
+  position: fixed;
+  top: 0px;
+  height: 56px;
+  margin-bottom: 0;
+  border: none;
+  color: #ffffff;
+  background-color: #318ccf;
+  padding: 4px;
+  z-index: 50;
+  width: 100%;
+}
+
+.navbar .arrowback {
+  max-width: 20px;
+  margin-top: 13px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.navbar .navbar-brand {
+  position: relative;
+  height: 48px;
+  line-height: 30px;
+  padding: 9px 20px;
+  display: inline-block;
+  float: none;
+  font-size: 18px;
+}

@@ -1,0 +1,79 @@
+.selectPsger{
+    font-size: 15px;
+}
+
+.selectPsger .list-search{
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    margin-top:56px;
+}
+.selectPsger .list-search img{
+    position: absolute;
+    left: 5px;
+    max-width: 20px;
+    top: 9px;
+}
+.selectPsger .list-search input{
+    padding-left: 35px;
+}
+.selectPsger .renyuan{
+    padding:10px 15px;
+    font-size: 16px;
+    color: #666666;
+}
+.selectPsger .renyuan .pull-right{
+    color:#318ccf
+}
+.selectPsger .personList{
+    background-color:white;
+}
+.selectPsger .list-group-item img{
+    max-width: 45px;
+    vertical-align: middle;
+    margin-right: 15px;
+    position: absolute;
+}
+.selectPsger .list-group-item .info{
+    margin-left: 52px;
+}
+.selectPsger .list-group-item .dept{
+    color: #666666;
+    font-size: 14px;
+    margin-top: 4px;
+}
+.selectPsger .navbar .finish{
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    position: absolute;
+    right: 10px;
+}
+.selectPsger .selectedPanel {
+    padding: 10px;
+}
+.selectPsger .selectedPsger{
+    position: relative;
+    width: 30%;
+    background: #90CAF9;
+    padding: 8px 3px;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+.selectPsger .selectedPanel .divider{
+    margin: 5px;
+    color: #666;
+}
+.selectPsger .selectedPsger div{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+.selectPsger .selectedPanel .deleteImg{
+    position: absolute;
+    max-width: 16px;
+    right: -6px;
+    top: -7px;
+}

@@ -1,0 +1,14 @@
+.planlist-history-body
+{
+    position: absolute;
+    width: 100%;
+    top: 56px;
+    overflow-y: auto;
+}
+
+.planlist-body{
+    position: absolute;
+    width:100%;
+    top:56px;
+    overflow-y: auto;
+}

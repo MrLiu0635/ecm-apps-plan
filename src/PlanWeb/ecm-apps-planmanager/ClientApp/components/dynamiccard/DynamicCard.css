@@ -1,0 +1,41 @@
+﻿.dynamicCard {
+    position: relative;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+
+    .dynamicCard .imageblock {
+        margin-left: 12px;
+        /* height: 33%; */
+        width: 33%;
+        max-height: 90px;
+        max-width: 120px;
+        display: block;
+        background-color: #BAEFBA;
+        float: left;
+    }
+
+    .dynamicCard .dynamicInfo {
+        margin-left: 8px;
+        height: 70px;
+        width: 100%;
+        background-color: #ffffff;
+        vertical-align: middle;
+        float: left;
+    }
+
+        .dynamicCard .dynamicInfo * {
+            font-size: 16px;
+            line-height: 1.5em;
+            margin-top: 10px;
+        }
+        .dynamicCard .dynamicInfo .category .state {
+            color: red;
+            float: right;
+            margin-right: 15px;
+            margin-top: 0px;
+        }

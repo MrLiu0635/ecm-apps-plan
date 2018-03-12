@@ -1,0 +1,25 @@
+{
+    "GSPDbConfiguration": {
+      "DefaultCode": "ddd",
+      "Connections": [
+  
+        {
+          "DbType": "SQLServer",
+          "Code": "OE73"
+        },
+        {
+          "DbType": "PostgreSQL",
+          "Code": "canteen",
+          "UserId": "postgres",
+          "Password": "aaaaaa",
+          "Source": "10.24.13.145:5432",
+          "Catalog": "canteen",
+          "Provider": "1",
+          "ConnectTimeout": "120",
+          "CommandTimeout": "600",
+          "MaxPoolSize": "100"
+        }
+      ]
+       
+    }
+  }

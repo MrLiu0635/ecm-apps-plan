@@ -1,0 +1,7 @@
+﻿{
+  "ConnectionStrings": {
+    "default": "Host=10.24.13.145;Port=5432;Username=postgres;Password=aaaaaa;Database=postgres",
+    "sysdb": "Host=10.24.13.145;Port=5432;Username=postgres;Password=aaaaaa;Database=postgres",
+    "mysql": "server=10.24.13.145;database=myschool;uid=root;pwd=123456;charset='gbk';SslMode=None"
+  }
+}

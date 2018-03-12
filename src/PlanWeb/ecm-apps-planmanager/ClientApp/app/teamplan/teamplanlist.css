@@ -1,0 +1,24 @@
+.teamplanlist-content
+{
+    margin-top:56px;
+}
+.teamplanlist-planList {
+    width: 100%;
+    align-items:baseline;
+    height:100%
+}
+.teamplanlist-faredplan, .teamplanlist-historyplan {
+    padding-left: 15px;
+    border-bottom: 1px solid #ddd;
+    font: 17px "Microsoft YaHei";
+}
+.teamplanlist-faredplan .faredplancreator {
+    float: right;
+}
+.teamplanlist-historyplan .historyplancreator {
+    float: right;
+}
+.teamplanlist-currentplanList {
+    font: 17px "Microsoft YaHei";
+    width: 100%
+}

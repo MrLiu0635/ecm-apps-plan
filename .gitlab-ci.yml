@@ -1,0 +1,46 @@
+image: registry.iec.io/dotnet-core-dind:2.0
+
+before_script:
+  - npm config set registry https://repos.iec.io/repository/npm-ecm
+  - echo _auth=$(echo -n $ARTIFACTS_REPO_USERNAME:$ARTIFACTS_REPO_PASSWORD | base64) >> /root/.npmrc
+  - sed -i 's/ARTIFACTS_REPO_USERNAME/'"$ARTIFACTS_REPO_USERNAME"'/g' Nuget.config  
+  - sed -i 's/ARTIFACTS_REPO_PASSWORD/'"$ARTIFACTS_REPO_PASSWORD"'/g' Nuget.config
+
+stages:
+  - build
+  - deploy_dev
+build_job:
+  stage: build
+  tags:
+    - .net core 2.0
+    - docker
+  only:
+    - dev
+    - master
+  script:
+    - whoami
+    # 执行任务是的工作目录为:/home/gitlab-runner/builds/{JobID}/0/ecm-cloud-apps/ecm-apps-canteen
+    #- npm install --verbose --prefix ./src/PlanWeb/ecm-apps-planmanager/ # 最后必须带反斜线
+    #- unset CI
+    - dotnet restore src/PlanWeb/ecm-apps-planmanager --configfile ../../../Nuget.config
+    - whoami
+    - dotnet build src/PlanWeb/ecm-apps-planmanager
+deploy_dev_job:
+  stage: deploy_dev
+  tags:
+    - .net core 2.0
+    - docker
+  environment:
+    name: development
+  only:
+    - master
+
+  script:  # 发布程序并部署运行    
+    #- dotnet restore src/PlanWeb/ecm-apps-planmanager --configfile ../../../Nuget.config
+    - dotnet publish src/PlanWeb/ecm-apps-planmanager -c Release --output publish
+    # 由于Dockerfile与发布目录必须在一个Build Context，所以将 Build Context设置到源码根目录，同时修改Dockerfile中的目录;支持私有仓库提交    
+    - docker build -f ./docker/Dockerfile -t snapshots.ecm.docker.iec.io/ecm-plan:0.0.2 .
+    - docker login -u $ARTIFACTS_REPO_USERNAME -p $ARTIFACTS_REPO_PASSWORD snapshots.ecm.docker.iec.io
+    - docker push snapshots.ecm.docker.iec.io/ecm-plan:0.0.2
+    #- docker push $GITLAB_SERVER:5000/hwapp    
+    #- ssh root@$DEPLOY_SERVER_DEV "docker pull $GITLAB_SERVER:5000/hwapp && docker run -d -p 5001:5001 $GITLAB_SERVER:5000/hwapp"

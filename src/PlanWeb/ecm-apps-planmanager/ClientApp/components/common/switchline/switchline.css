@@ -1,0 +1,31 @@
+.switchDiv
+{
+    padding-left: 20px;
+    min-height: 44px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-right: 15px;
+}
+
+.switchDiv .titleDiv
+{
+    line-height: 1.5;
+    padding-top: 9px;
+    font: 17px "Microsoft YaHei";
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.switchDiv .contentDiv
+{
+    flex-basis: 10%;
+    -webkit-flex-basis: 10%;
+    -ms-flex-preferred-size: 10%;
+    padding-top: 6.5px;
+}

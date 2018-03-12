@@ -1,0 +1,6 @@
+﻿{
+  "ConnectionStrings": {
+    "default": "Host=traveldb;Port=5432;Username=postgres;Password=123456a?;Database=postgres",
+    "sysdb": "Host=traveldb;Port=5432;Username=postgres;Password=123456a?;Database=postgres"
+  }
+}

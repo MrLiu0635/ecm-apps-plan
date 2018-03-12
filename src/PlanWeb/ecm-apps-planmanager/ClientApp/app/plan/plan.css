@@ -1,0 +1,183 @@
+﻿.paln-planItemList {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.paln-componentModels {
+    background: #fff;
+}
+
+.paln-componentModel {
+    padding-left: 20px;
+    min-height: 44px;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.paln-recipContent .areaContent {
+    overflow-y: hidden;
+    resize: none;
+    float: left;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-family: MicroSoft YaHei;
+    width: 90%;
+    font-size: 17px;
+    height: 19px;
+}
+
+.paln-recipHeader {
+    vertical-align: middle;
+    width: 20%;
+    float: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+    .paln-recipHeader .recipHeader {
+        font: 17px "Microsoft YaHei";
+        float: left;
+    }
+
+.paln-recipContent {
+    vertical-align: middle;
+    width: 65%;
+    float: right;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+.paln-planName {
+    border-bottom: 1px solid #ddd;
+}
+
+.paln-planItemCategory {
+    border-bottom: 1px solid #ddd;
+    margin-top: 25px;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.paln-addPlanItem {
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.addPlanItem {
+    text-align: center;
+}
+
+.paln-componentModels {
+    margin-top: 56px;
+}
+
+.plan-delete {
+    width: 60px;
+    background: #FF4058;
+    text-align: center;
+    font-size: 16px;
+    height: 67px;
+    position: absolute;
+    right: 0;
+    top: 1px;
+}
+
+.plan-edit {
+    width: 60px;
+    background: #dcdcfc;
+    text-align: center;
+    font-size: 16px;
+    height: 67px;
+    position: absolute;
+    right: 60px;
+    top: 1px;
+}
+
+.plan-delete a {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.plan-planName,.plan-stageComp {
+    font-size:17px;
+}
+
+.plan-content {
+    background: #fff;
+    position: relative;
+    height: 100%;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.plan-wrapper {
+    position: relative;
+    background: #CCE9F9;
+    overflow: hidden;
+    height: 340px;
+}
+
+.paln-planItemList ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+    .paln-planItemList ul li {
+        list-style: none;
+        overflow: hidden;
+        height: 60px;
+        line-height: 60px;
+        border-bottom: 1px solid #efefef;
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        position: relative;
+    }
+
+        .paln-planItemList ul li span {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+.paln-planItemList {
+    position: absolute;
+    width: 100%;
+    overflow-y: auto;
+}
+.saveComp {
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0px;
+    padding-top: 10px;
+    width: 100%;
+    border-top: 1px solid #f2dede;
+    z-index: 5;
+    height:39px;
+}
+.plan-saveButton {
+    text-align: center;
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0px;
+    padding-top: 10px;
+    width: 50%;
+    background-color: #337ab7;
+    border-top: 1px solid #f2dede;
+    z-index: 5;
+}
+.plan-submitButton {
+    text-align: center;
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0px;
+    padding-top: 10px;
+    width: 50%;
+    background-color: #337ab7;
+    border-top: 1px solid #f2dede;
+    z-index: 5;
+    margin-left:50%;
+}

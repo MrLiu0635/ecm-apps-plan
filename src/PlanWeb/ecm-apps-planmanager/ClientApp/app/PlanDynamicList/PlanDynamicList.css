@@ -1,0 +1,50 @@
+.subList{
+    margin-top:5px
+}
+.dynamicList {
+    margin-top: 56px
+}
+.planDynamic .myContentOfPlanDynamic {
+    position: absolute;
+    width: 100%;
+    top: 56px;
+    overflow-y: scroll;
+    bottom: 0px;
+}
+.planDynamic .my-steps-planDynamic {
+    height: 80px;
+}
+.planDynamic .my-step-planDynamic {
+    position:relative;
+    top:12px;
+}
+
+.planDynamic .planDynamicSaveComp {
+    text-align: center;
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0px;
+    padding-top: 10px;
+    width: 100%;
+    background-color: #f7f7f7;
+    border-top: 1px solid #f2dede;
+    z-index: 5
+}
+.planDynamic .delete {
+    max-width: 32px;
+    margin-top: 8px;
+    margin-right: 6px;
+}
+
+.PlanDynamicListOfAll .addDynamic {
+    max-width: 32px;
+    margin-top: 10px;
+    margin-right: 12px;
+}
+.PlanDynamicListOfAll .AllDynamicList {
+    position: absolute;
+    width: 100%;
+    top: 56px;
+    overflow-y: scroll;
+    bottom: 0px;
+}
